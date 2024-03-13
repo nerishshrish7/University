@@ -1,0 +1,369 @@
+
+You sent
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #F9F9FF;
+    gap: 12%;
+}
+.details a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    color: #262253;
+}
+.logo p{
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: 'Abril Fatface',sans-serif;
+    margin-top: -5px;
+}
+.details{
+    height: 10vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    font-family: 'Roboto',sans-serif;
+}
+.home{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-1{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.blog-button{
+    background: none;
+    color: black;
+    height: 5vh;
+    width: 5vw;
+    font-size: 15px;
+    border: none;
+}
+.blog{
+    height: 5vh;
+    width: 5vw;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+.list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    height: 5vh;
+    width: 6.5vw;
+    margin-left: 15px;
+    margin-top: 1px;
+}
+.list a{
+    color: black;
+    height: 5vh;
+    width: 6.5vw;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.list a{
+    background-color: white;
+}
+.blog:hover .list{
+    display: block;
+}
+.page-button{
+    background: none;
+    color: black;
+    height: 5vh;
+    width: 5vw;
+    font-size: 15px;
+    border: none;
+}
+.page{
+    height: 5vh;
+    width: 5vw;
+    position: relative;
+    display: inline-block;
+}
+.page:hover .list-1{
+    display: block;
+}
+.page{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.list-1{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    height: 5vh;
+    width: 6.5vw;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.list-1 a{
+    color: black;
+    height: 5vh;
+    width: 6.5vw;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    background: white;
+}
+.contact-1{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.box{
+    height: 5vh;
+    width: 15vw;
+    background: #363D7A;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.box:hover{
+    background: white;
+    color: #31D9F0;
+    border: 1px solid #31D9F0;
+    transition: 0.5s;
+    margin-top: -1px;
+}
+.bg-2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/bg-2.jpg);
+    background-size: 100% 100%;
+}
+.application{
+    height: 100vh;
+    width: 64%;
+    background:#0e1d51c7;
+    margin-left: 36%;
+    color: white;
+}
+.application p{
+    font-family: 'Roboto',sans-serif;
+}
+.application h1{
+    font-size: 3.5vw;
+    font-weight: normal;
+    font-family: 'Abril Fatface',sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    word-spacing: 7px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 50px;
+    gap: 20%;
+}
+#name{
+    height: 5vh;
+    width: 10vw;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 40px;
+    gap: 20%;
+}
+#contact{
+    height: 5vh;
+    width: 10vw;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+}
+.message{
+    padding-left: 50px;
+    margin-top: 60px;
+}
+#message{
+    height: 10vh;
+    width: 32.5vw;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+.mini-box-5{
+    height: 5vh;
+    width: 8vw;
+    border: 1px solid #31D9F0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #31D9F0;
+    font-family: 'Roboto',sans-serif;
+}
+.mini-box-5:hover{
+    background: #31D9F0;
+    color: white;
+    border: none;
+    transition: 1.5s;
+}
+.footer{
+    height: 100vh;
+    width: 100%;
+    background: #0c1243d0;
+    font-family: 'Poppins',sans-serif;
+}
+.line{
+    height: 80vh;
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 5%;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.line h1{
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+.line p{
+    font-weight: normal;
+    font-size: 1.15vw;
+    margin-bottom: 10px;
+}
+.update{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+}
+.email{
+    height: 7vh;
+    width: 30vw;
+    border: none;
+    padding-left: 10px;
+}
+.suscribe{
+    height: 7vh;
+    width: 13vw;
+    background: #FAC231;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+}
+.face{
+    height: 7vh;
+    width: 5vw;
+    background: #3453C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta{
+    height: 7vh;
+    width: 5vw;
+    background: #FAC231;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    height: 7vh;
+    width: 5vw;
+    background: #CD2121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google{
+    height: 7vh;
+    width: 5vw;
+    background: #253C8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.campus{
+    margin-left: 80px;
+}
+.study{
+    margin-left: 80px;
+}
+.support{
+    margin-left: 80px;
+}
+.last-p{
+    font-size: 15px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 50px;
+}
